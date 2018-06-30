@@ -20,3 +20,11 @@
   font-size: 25px;
   margin: 5px;
 }
+
+.stopwatch {
+  margin: 50px;
+}
+
+.stopwatch-input {
+  margin-right: 5px;
+}

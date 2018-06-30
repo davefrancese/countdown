@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Clock from "./Clock.jsx";
+import Stopwatch from "./Stopwatch.jsx";
 import { Form, FormControl, Button } from "react-bootstrap";
 
 class App extends Component {
@@ -35,6 +36,7 @@ class App extends Component {
             <Button onClick={() => this.changeDeadline()}>Submit</Button>
           </Form>
         </div>
+        <Stopwatch />
       </div>
     );
   }
