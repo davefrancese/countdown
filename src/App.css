@@ -25,6 +25,9 @@
   margin: 50px;
 }
 
-.stopwatch-input {
+.stopwatch-hours,
+.stopwatch-minutes,
+.stopwatch-seconds {
   margin-right: 5px;
+  width: 50px;
 }
